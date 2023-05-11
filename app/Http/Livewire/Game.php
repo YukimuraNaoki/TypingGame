@@ -23,7 +23,7 @@ class Game extends Component
     public $currentWord;
     public $solvedWords = [];
     
-    public function start()
+    public function start_game()
     {
         $this->status='trying';
         $this->generateCurrentWord();
@@ -41,7 +41,7 @@ class Game extends Component
     
     public $typingText='';
     
-    public function render()
+    public function render_game()
     {
         if ($this->typingText === $this->currentWord){
             array_push($this->solvedWords, $this->currentWord);

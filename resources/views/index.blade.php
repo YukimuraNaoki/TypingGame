@@ -21,4 +21,7 @@
     <livewire:game />
     @livewireScripts
 </body>
+ <x-app-layout>
+    (index.blade.php)
+</x-app-layout>
 </html>

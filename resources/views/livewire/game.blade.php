@@ -19,4 +19,7 @@
     @endif
     <input wire:model="typingText" type="text" class="w-8/12 mx-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 block p-2.5 mb-4" autofocus required>
     <span class="bg-gray-700 text-gray-300 text-lg font-medium px-2.5 py-0.5 rounded">Question {{ $this->questionNumber }}</span>
+    <x-app-layout>
+        (game.blade.php)
+    </x-app-layout>
 </div>
