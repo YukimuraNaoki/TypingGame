@@ -33,4 +33,11 @@ return new class extends Migration
     {
         Schema::dropIfExists('users');
     }
+    
+    public function types()
+    {
+        return $this->hasMany(Type::class);
+    }
 };
+
+    
